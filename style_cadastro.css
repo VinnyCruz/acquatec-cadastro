@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Barlow', sans-serif;
+}
+header{
+    background-color: black;
+    border-bottom: 2px solid #32b9cd;
+    padding: 15px 0;
+   
+}
+.container{
+    display: flex;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo{
+    color: #32b9cd;
+    font-size: 14px;
+}
+.navegacao{
+    color: #efb661;
+}
+.navegacao ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.navegacao ul li{
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.atual {
+    color: #32b9cd;
+}
+.banner{
+    background-image: url(assets/img/bg-jelly-fish-para_outras_pags.png);
+    padding: 100px 0;
+    background-size: cover;
+    height: 90vh;
+}
+
+.banner .container {
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa_formulario {
+    background-color: #e5e5e5;
+    padding: 50px 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 3px 1px rgb(255, 255, 255);
+}
+
+.caixa_formulario h2 {
+    color: #e6005a;
+    margin-bottom: 20px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa_formulario label {
+    color: #e6005a;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+.caixa_formulario input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #32b9cd;
+    display: flex;
+}
+
+.caixa_formulario input:focus {
+    outline: none;
+}
+
+.caixa_formulario button {
+    margin-top: 20px;
+    padding: 5px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    background-color: #e6005a;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.caixa_formulario button:hover {
+    opacity: 0.9;
+}
+
+footer {
+    background-color: #32b9cd;
+    padding: 40px 0;
+}
+
+footer .container {
+    justify-content: center;
+}
+
+footer p {
+    color: #FFF;
+}
